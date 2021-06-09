@@ -33,6 +33,16 @@ In this project we use a dataset from Kaggle which contains images of garbage di
 Resource: https://www.kaggle.com/mostafaabla/garbage-classification
 
 ## Model Creation Flow
+1. Interested in solving problems regarding waste management so we're looking for a dataset about garbage.
+2. Found a dataset on Kaggle containing 15,150 images from 12 different classes of household garbage; paper, cardboard, biological, metal, plastic, green-glass, brown-glass, white-glass, clothes, shoes, batteries, and trash.
+3. Create colab and upload data from Kaggle to Google Colaboratory.
+4. Prepare the data.
+   - Unzip the dataset
+   - Split the dataset into training set and validation set
+   - Data preprocessing (data augmentation)
+5. Train the model with CNN (baseline model) and test the model.
+6. Improve the model with transfer learning first by using ResNet50 then InceptionV3 and test the model.
+7. Saved the model to h5 and then convert to TensorFlow lite with post-training quantization.
 
 ## Acknowledgement
 
